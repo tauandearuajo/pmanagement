@@ -151,7 +151,7 @@ $idcliente = $dados['id'];
                       </a>
                       <!-- more inner pages-->
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="lista_de_casos.php" data-bs-toggle="" aria-expanded="false">
+                    <li class="nav-item"><a class="nav-link" href="patients.php" data-bs-toggle="" aria-expanded="false">
                         <div class="d-flex align-items-center"><span class="nav-link-text">Lista de pacientes</span>
                         </div>
                       </a>
