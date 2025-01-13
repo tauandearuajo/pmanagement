@@ -410,11 +410,11 @@ $idcliente = $dados['id'];
                       <i class="fa-solid far fa-eye "> </i> Visualizar
                     </a>
                   </div>
-                  <div class="col-auto ms-2 me-4">
+                 <!-- <div class="col-auto ms-2 me-4">
                     <a class="btn btn-danger " href="">
                       <i class="fa-solid far fa-trash-alt "></i> Excluir
                     </a>
-                  </div>
+                  </div>--->
                 </div>
 
               </div>

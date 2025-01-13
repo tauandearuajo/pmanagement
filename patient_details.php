@@ -607,23 +607,10 @@ $insurance = mysqli_fetch_array($query_insurance);
             </div>
             <div class="px-xl-4 mb-7">
               <div class="row mx-0 mx-sm-3 mx-lg-0 px-lg-0">
-                <div class="col-sm-12 col-xxl-6 border-bottom border-end-xxl py-3">
-                  <table class="w-100 table-stats table-stats">
-                    <tr>
-                      <th></th>
-                      <th></th>
-                      <th></th>
-                    </tr>
-                    
-                  </table>
-                </div>
+                
                 <div class="col-sm-12 col-xxl-6 border-bottom py-3">
                   <table class="w-100 table-stats">
-                    <tr>
-                      <th></th>
-                      <th></th>
-                      <th></th>
-                    </tr>
+                    
                     <tr>
                       <td class="py-2">
                         <div class="d-inline-flex align-items-center">
@@ -657,12 +644,12 @@ $insurance = mysqli_fetch_array($query_insurance);
                       <td class="py-2">
                         <div class="d-inline-flex align-items-center">
                           <div class="d-flex bg-success-100 rounded-circle flex-center me-3" style="width:24px; height:24px"><span class="text-success-600 dark__text-success-300" data-feather="users" style="width:16px; height:16px"></span></div>
-                          <p class="fw-bold mb-0">Contact Name</p>
+                          <p class="fw-bold mb-0">Cidade - Estado - Zip code</p>
                         </div>
                       </td>
                       <td class="py-2 d-none d-sm-block pe-sm-2">:</td>
                       <td class="py-2">
-                        <div class="ps-6 ps-sm-0 fw-semi-bold mb-0 pb-3 pb-sm-0">Jackson Pollock</div>
+                        <div class="ps-6 ps-sm-0 fw-semi-bold mb-0 pb-3 pb-sm-0"><?= $patient['city_state_zip'] ?></div>
                       </td>
                     </tr>
                     <tr>
